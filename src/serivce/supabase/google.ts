@@ -2,6 +2,7 @@ import { createClient } from '@/utils/supabase/client';
 
 export async function signInWithGoogle({ next = '/' }: { next?: string } = {}) {
   const supabase = createClient();
+  const baseUrl = process.env.NEXT_PUBLIC_GOOGLE_CALLBACK_URL!;
 
   return await supabase.auth.signInWithOAuth({
     provider: 'google',
@@ -10,7 +11,7 @@ export async function signInWithGoogle({ next = '/' }: { next?: string } = {}) {
         access_type: 'offline',
         prompt: 'consent'
       },
-      redirectTo: `http://localhost:3000/auth/callback?next=${next}`
+      redirectTo: `${baseUrl}?next=${next}`
     }
   });
 }
