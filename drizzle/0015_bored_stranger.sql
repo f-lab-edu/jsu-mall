@@ -1,0 +1,1 @@
+ALTER TABLE "product_delivery" DROP COLUMN IF EXISTS "duration_days";
