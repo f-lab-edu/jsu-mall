@@ -1,0 +1,1 @@
+ALTER TABLE "product_delivery" ADD COLUMN "duration_days" integer NOT NULL;
