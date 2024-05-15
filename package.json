@@ -12,7 +12,7 @@
     "drizzle:generate": "drizzle-kit generate",
     "drizzle:push": "drizzle-kit push",
     "drizzle:studio": "drizzle-kit studio",
-    "seed": "tsx --require dotenv/config seed.ts"
+    "seed": "tsx --require dotenv/config ./db/seed/index.ts"
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
