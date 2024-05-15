@@ -84,7 +84,7 @@ export const product_delivery = pgTable('product_delivery', {
     .notNull()
     .references(() => product.id),
   shipping_fee: integer('shipping_fee').notNull(),
-  release_date: timestamp('release_date', { mode: 'string' }).notNull()
+  duration_days: integer('duration_days').notNull()
 });
 
 export const color = pgTable(
