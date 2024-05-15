@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Product 1",
+    "description": "Description for Product 1",
+    "category_id": 1,
+    "brand_id": 1,
+    "price": 1000,
+    "image_url": "https://www.google.com"
+  },
+  {
+    "name": "Product 2",
+    "description": "Description for Product 2",
+    "category_id": 2,
+    "brand_id": 1,
+    "price": 1500,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 3",
+    "description": "Description for Product 3",
+    "category_id": 3,
+    "brand_id": 1,
+    "price": 2000,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 4",
+    "description": "Description for Product 4",
+    "category_id": 4,
+    "brand_id": 1,
+    "price": 2500,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 5",
+    "description": "Description for Product 5",
+    "category_id": 5,
+    "brand_id": 1,
+    "price": 3000,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 6",
+    "description": "Description for Product 6",
+    "category_id": 6,
+    "brand_id": 1,
+    "price": 3500,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 7",
+    "description": "Description for Product 7",
+    "category_id": 6,
+    "brand_id": 1,
+    "price": 4000,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 8",
+    "description": "Description for Product 8",
+    "category_id": 6,
+    "brand_id": 1,
+    "price": 4500,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 9",
+    "description": "Description for Product 9",
+    "category_id": 7,
+    "brand_id": 1,
+    "price": 5000,
+    "image_url": "https"
+  },
+  {
+    "name": "Product 10",
+    "description": "Description for Product 10",
+    "category_id": 7,
+    "brand_id": 1,
+    "price": 5500,
+    "image_url": "https"
+  }
+]

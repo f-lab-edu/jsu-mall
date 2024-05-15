@@ -1,0 +1,39 @@
+[
+  {
+    "name": "빨강",
+    "hex_code": "#FF0000"
+  },
+  {
+    "name": "주황",
+    "hex_code": "#FFA500"
+  },
+  {
+    "name": "노랑",
+    "hex_code": "#FFFF00"
+  },
+  {
+    "name": "초록",
+    "hex_code": "#00FF00"
+  },
+  {
+    "name": "파랑",
+    "hex_code": "#0000FF"
+  },
+  {
+    "name": "남색",
+    "hex_code": "#000080"
+  },
+  {
+    "name": "보라",
+    "hex_code": "#800080"
+  },
+
+  {
+    "name": "검정",
+    "hex_code": "#000000"
+  },
+  {
+    "name": "흰색",
+    "hex_code": "#FFFFFF"
+  }
+]
